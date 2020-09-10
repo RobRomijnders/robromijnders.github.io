@@ -7,116 +7,23 @@ import emoji from "react-easy-emoji";
 
 const greeting = {
   /* Your Summary And Greeting Section */
-  username: "Saad Pasta",
-  title: "Hi all, I'm Saad",
-  subTitle: emoji("A passionate Software Developer 🚀 having an experience of building Web and Mobile applications with JavaScript / Reactjs / Nodejs / React Native and some other cool libraries and frameworks."),
-  resumeLink: "https://drive.google.com/file/d/1ofFdKF_mqscH8WvXkSObnVvC9kK7Ldlu/view?usp=sharing"
+  username: "Rob Romijnders",
+  title: "",
+  subTitle: "Machine learning researcher. Interested in representation learning, out-of-distribution generalization and Bayesian learning.",
+  resumeLink: "https://drive.google.com/file/d/1oEDtGJV20jCI5olcyMA21P_kS5rl0jFB/view?usp=sharing",
+  googleScholarLink: "https://scholar.google.com/citations?user=P1kN6KEAAAAJ",
 };
 
 // Your Social Media Link
 
 const socialMediaLinks = {
 
-  github: "https://github.com/saadpasta",
-  linkedin: "https://www.linkedin.com/in/saadpasta/",
-  gmail: "saadpasta70@gmail.com",
-  gitlab: "https://gitlab.com/saadpasta",
-  facebook: "https://www.facebook.com/saad.pasta7",
-  medium: "https://medium.com/@saadpasta",
-  stackoverflow: "https://stackoverflow.com/users/10422806/saad-pasta"
+  github: "https://github.com/RobRomijnders",
+  linkedin: "https://www.linkedin.com/in/robromijnders/",
+  gmail: "romijndersrob@gmail.com",
+  stackoverflow: "https://stackoverflow.com/users/6104317/rob-romijnders"
   // Instagram and Twitter are also supported in the links!
 };
-
-// Your Skills Section
-
-const skillsSection = {
-  title: "What i do",
-  subTitle: "CRAZY FULL STACK DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK",
-  skills: [
-    emoji("⚡ Develop highly interactive Front end / User Interfaces for your web and mobile applications"),
-    emoji("⚡ Progressive Web Applications ( PWA ) in normal and SPA Stacks"),
-    emoji("⚡ Integration of third party services such as Firebase/ AWS / Digital Ocean")
-  ],
-
-/* Make Sure You include correct Font Awesome Classname to view your icon
-https://fontawesome.com/icons?d=gallery */
-
-  softwareSkills: [
-    {
-      skillName: "html-5",
-      fontAwesomeClassname: "fab fa-html5"
-    },
-    {
-      skillName: "css3",
-      fontAwesomeClassname: "fab fa-css3-alt"
-    },
-    {
-      skillName: "sass",
-      fontAwesomeClassname: "fab fa-sass"
-    },
-    {
-      skillName: "JavaScript",
-      fontAwesomeClassname: "fab fa-js"
-    },
-    {
-      skillName: "reactjs",
-      fontAwesomeClassname: "fab fa-react"
-    },
-    {
-      skillName: "nodejs",
-      fontAwesomeClassname: "fab fa-node"
-    },
-    {
-      skillName: "swift",
-      fontAwesomeClassname: "fab fa-swift"
-    },
-    {
-      skillName: "npm",
-      fontAwesomeClassname: "fab fa-npm"
-    },
-    {
-      skillName: "sql-database",
-      fontAwesomeClassname: "fas fa-database"
-    },
-    {
-      skillName: "aws",
-      fontAwesomeClassname: "fab fa-aws"
-    },
-    {
-      skillName: "firebase",
-      fontAwesomeClassname: "fas fa-fire"
-    },
-    {
-      skillName: "python",
-      fontAwesomeClassname: "fab fa-python"
-    },
-    {
-      skillName: "docker",
-      fontAwesomeClassname: "fab fa-docker"
-    }
-  ]
-};
-
-// Your top 3 proficient stacks/tech experience
-
-const techStack = {
-  viewSkillBars: true, //Set it to true to show Proficiency Section
-  experience: [
-    {
-      Stack: "Frontend/Design",  //Insert stack or technology you have experience in
-      progressPercentage: "90%"  //Insert relative proficiency in percentage
-    },
-    {
-      Stack: "Backend",
-      progressPercentage: "70%"
-    },
-    {
-      Stack: "Programming",
-      progressPercentage: "60%"
-    }
-  ]
-};
-
 
 // Your top 3 work experiences
 
@@ -124,29 +31,36 @@ const workExperiences = {
   viewExperiences: true, //Set it to true to show workExperiences Section
   experience: [
     {
-      role: "Software Engineer",  
-      company: "Facebook",
-      companylogo: require("./assets/images/facebookLogo.png"),
-      date: "June 2018 – Present",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      role: "AI resident",
+      company: "Google",
+      companylogo: require("./assets/images/google_logo.png"),
+      date: "October 2019 – Present",
+      desc: "Research focusing on representation learning and robustness of image classification",
       descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+        "Mentored by Mario Lucic and Neil Houlsby.",
+        "Resulted in two publications."
       ]
     },
     {
-      role: "Front-End Developer",   
-      company: "Quora",
-      companylogo: require("./assets/images/quoraLogo.png"),
-      date: "May 2017 – May 2018",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-    },
+      role: "Machine learning engineer",
+      company: "Frosha.io",
+      companylogo: require("./assets/images/frosha_logo.png"),
+      date: "October 2016 - July 2019",
+      desc: "Entity resolution in large CRM systems",
+      descBullets: [
+        "Startup, employee #1",
+        "Worked on Text parsing using Maximum likelihood in RNN models"
+      ]    },
     {
-      role: "Software Engineer Intern",  
-      company: "Airbnb",
-      companylogo: require("./assets/images/airbnbLogo.png"),
-      date: "Jan 2015 – Sep 2015",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      role: "Graduate student",
+      company: "Eindhoven University - Mobile Perception systems",
+      companylogo: require("./assets/images/tue_whiten.png"),
+      date: "Sep 2018 - July 2019",
+      desc: "Thesis on Domain Adaptation for Computer Vision models",
+      descBullets: [
+        "Supervised by dr. Gijs Dubbelman and Panos Meletis",
+        "Resulted in Conference poster for IEEE WACV"
+      ],
     },
   ]
 };
@@ -156,83 +70,66 @@ To know how to get github key look at readme.md */
 
 const openSource = {
   githubConvertedToken: process.env.REACT_APP_GITHUB_TOKEN,
-  githubUserName: "saadpasta", // Change to your github username to view your profile in Contact Section.
-  showGithubProfile :"true" // Set true or false to show Contact profile using Github, defaults to false 
+  githubUserName: "robromijnders", // Change to your github username to view your profile in Contact Section.
+  showGithubProfile :"True" // Set true or false to show Contact profile using Github, defaults to false
 };
 
-
-// Some Big Projects You have worked with your company
-
-const bigProjects = {
-  title: "Big Projects",
-  subtitle: "SOME STARTUPS AND COMPANIES THAT I HELPED TO CREATE THEIR TECH",
-  projects: [
-    {
-      image: require("./assets/images/saayaHealthLogo.webp"),
-      link: "http://saayahealth.com/"
-    },
-    {
-      image: require("./assets/images/nextuLogo.webp"),
-      link: "http://nextu.se/"
-    }
-  ]
-};
 
 // Your Achievement Section Include Your Certification Talks and More
 
-const achievementSection = {
+const publicationsSection = {
 
-  title: emoji("Achievements And Certifications 🏆 "),
-  subtitle: "Achievements, Certifications, Award Letters and Some Cool Stuff that I have done !",
+  title: "Academic publications ",
+  subtitle: "Academic publications I have co-authored",
 
-  achivementsCards: [
+  publicationCards: [
     {
-      title: "Google Code-In Finalist",
-      subtitle: "First Pakistani to be selected as Google Code-in Finalist from 4000 students from 77 different countries.",
-      image: require("./assets/images/codeInLogo.webp"),
+      title: "A domain agnostic normalization layer for unsupervised adversarial domain adaptation",
+      subtitle: "Rob Romijnders, Panagiotis Meletis, Gijs Dubbelman",
+      image: require("./assets/images/uada.png"),
       footerLink: [
-        { name: "Certification", url: "https://drive.google.com/file/d/0B7kazrtMwm5dYkVvNjdNWjNybWJrbndFSHpNY2NFV1p4YmU0/view?usp=sharing" },
-        { name: "Award Letter", url: "https://drive.google.com/file/d/0B7kazrtMwm5dekxBTW5hQkg2WXUyR3QzQmR0VERiLXlGRVdF/view?usp=sharing" },
-        { name: "Google Code-in Blog", url: "https://opensource.googleblog.com/2019/01/google-code-in-2018-winners.html" }
+        { name: "IEEE WACV `18", url: "https://arxiv.org/pdf/1809.05298" },
+        { name: "Conference poster", url: "https://www.computer.org/csdl/proceedings-article/wacv/2019/197500b866/18j8EDR8lTG" },
       ]
     },
     {
-      title: "Google Assistant Action",
-      subtitle: "Developed a Google Assistant Action JavaScript Guru that is available on 2 Billion devices world wide.",
-      image: require("./assets/images/googleAssistantLogo.webp"),
-      footerLink: [{ name: "View Google Assistant Action", url: "https://assistant.google.com/services/a/uid/000000100ee688ee?hl=en" }]
-    },
-
-    {
-      title: "PWA Web App Developer",
-      subtitle: "Completed Certifcation from SMIT for PWA Web App Development",
-      image: require("./assets/images/pwaLogo.webp"),
+      title: "Applying deep learning to basketball trajectories",
+      subtitle: "Rajiv Shah, Rob Romijnders",
+      image: require("./assets/images/rnn_bb.png"),
       footerLink: [
-        { name: "Certification", url: "" },
-        { name: "Final Project", url: "https://pakistan-olx-1.firebaseapp.com/" }
+        { name: "KDD `16", url: "https://www.researchgate.net/publication/306187086_Applying_Deep_Learning_to_Basketball_Trajectories" },
+        { name: "arXiv", url: "https://arxiv.org/pdf/1608.03793" },
+        { name: "Conference poster", url: "https://www.researchgate.net/publication/306187086_Applying_Deep_Learning_to_Basketball_Trajectories" },
       ]
-    }
-  ]
-};
-
-// Blogs Section
-
-const blogSection = {
-
-  title: "Blogs",
-  subtitle: "With Love for Developing cool stuff, I love to write and teach others what I have learnt.",
-
-  blogs: [
-    {
-      url: "https://blog.usejournal.com/create-a-google-assistant-action-and-win-a-google-t-shirt-and-cloud-credits-4a8d86d76eae",
-      title: "Win a Google Assistant Tshirt and $200 in Google Cloud Credits",
-      description: "Do you want to win $200 and Google Assistant Tshirt by creating a Google Assistant Action in less then 30 min?"
     },
     {
-      url: "https://medium.com/@saadpasta/why-react-is-the-best-5a97563f423e",
-      title: "Why REACT is The Best?",
-      description: "React is a JavaScript library for building User Interface. It is maintained by Facebook and a community of individual developers and companies."
-    }
+      title: "Applying deep bidirectional LSTM and mixture density network for basketball trajectory prediction",
+      subtitle: "Yu Zhao, Rennong Yang, Guillaume Chevalier, Rajiv C Shah, Rob Romijnders",
+      image: require("./assets/images/rnn_bb_2.png"),
+      footerLink: [
+        { name: "Optik `19", url: "https://www.sciencedirect.com/science/article/abs/pii/S0030402617316662" },
+        { name: "arXiv", url: "https://arxiv.org/pdf/1708.05824" },
+        { name: "Journal article", url: "https://www.sciencedirect.com/science/article/abs/pii/S0030402617316662" },
+      ]
+    },
+    {
+      title: "Data Selection for training Semantic Segmentation CNNs with cross-dataset weak supervision",
+      subtitle: "Panagiotis Meletis, Rob Romijnders, Gijs Dubbelman",
+      image: require("./assets/images/itsc.png"),
+      footerLink: [
+        { name: "IEEE ITSC `19", url: "https://arxiv.org/pdf/1907.07023" },
+        { name: "Conference poster", url: "https://arxiv.org/pdf/1907.07023" },
+      ]
+    },
+
+    {
+      title: "On Robustness and Transferability of Convolutional Neural Networks",
+      subtitle: "Josip Djolonga, Jessica Yung, Michael Tschannen, Rob Romijnders, Lucas Beyer, Alexander Kolesnikov, Joan Puigcerver, Matthias Minderer, Alexander D'Amour, Dan Moldovan, Sylvan Gelly, Neil Houlsby, Xiaohua Zhai, Mario Lucic",
+      image: require("./assets/images/robust.png"),
+      footerLink: [
+        { name: "arXiv", url: "https://arxiv.org/pdf/2007.08558" },
+      ]
+    },
   ]
 };
 
@@ -240,40 +137,31 @@ const blogSection = {
 
 const talkSection = {
   title: "TALKS",
-  subtitle: emoji("I LOVE TO SHARE MY LIMITED KNOWLEDGE AND GET A SPEAKER BADGE 😅"),
+  subtitle: "Public & recorded talks",
 
   talks: [
     {
-      title: "Build Actions For Google Assistant",
-      subtitle: "Codelab at GDG DevFest Karachi 2019",
-      slides_url: "https://bit.ly/saadpasta-slides",
-      event_url: "https://www.facebook.com/events/2339906106275053/"
+      title: "Bayesian Deep learning with 10% of the weights",
+      subtitle: "PyData 2018",
+      slides_url: "https://github.com/RobRomijnders/weight_uncertainty/blob/master/docs/presentation/versions/final_pydata18_bayes_nn_rob_romijnders_1.pdf",
+      event_url: "https://www.youtube.com/watch?v=Z7VN7oRA6TY"
+    },
+    {
+      title: "Using deep learning in natural language processing",
+      subtitle: "PyData 2017",
+      slides_url: "https://github.com/RobRomijnders/weight_uncertainty/blob/master/docs/presentation/versions/final_pydata18_bayes_nn_rob_romijnders_1.pdf",
+      event_url: "https://www.youtube.com/watch?v=HVdPWoZ_swY&t=840s"
     }
   ]
 };
 
-// Podcast Section
-
-const podcastSection = {
-  title: emoji("Podcast 🎙️"),
-  subtitle: "I LOVE TO TALK ABOUT MYSELF AND TECHNOLOGY",
-
-  // Please Provide with Your Podcast embeded Link
-  podcast: ["https://anchor.fm/codevcast/embed/episodes/DevStory---Saad-Pasta-from-Karachi--Pakistan-e9givv/a-a15itvo"]
-};
-
 const contactInfo = {
-  title: emoji("Contact Me ☎️"),
-  subtitle: "Discuss a project or just want to say hi? My Inbox is open for all.",
-  number: "+92-3243454077",
-  email_address: "saadpasta70@gmail.com"
+  title: "Contact details:",
+  subtitle: "Love to share ideas or collaborate.",
+  number: "+31 6 546 44 219",
+  email_address: "romijndersrob@gmail.com"
 };
 
-//Twitter Section
 
-const twitterDetails = {
-
-  userName : "twitter"//Replace "twitter" with your twitter username without @
-  
-};
-export { greeting, socialMediaLinks, skillsSection, techStack, workExperiences, openSource, bigProjects, achievementSection, blogSection, talkSection, podcastSection, contactInfo , twitterDetails};
+export { greeting, socialMediaLinks, publicationsSection, workExperiences, openSource, talkSection, contactInfo};
+//export { greeting, socialMediaLinks, skillsSection, techStack, workExperiences, openSource, bigProjects, achievementSection, blogSection, talkSection, podcastSection, contactInfo , twitterDetails};

@@ -9,9 +9,7 @@ function Header() {
     <Headroom>
       <header className="header">
         <a href="" className="logo">
-          <span className="grey-color"> &lt;</span>
           <span className="logo-name">{greeting.username}</span>
-          <span className="grey-color">/&gt;</span>
         </a>
         <input className="menu-btn" type="checkbox" id="menu-btn" />
         <label className="menu-icon" htmlFor="menu-btn">
@@ -19,7 +17,7 @@ function Header() {
         </label>
         <ul className="menu">
           <li>
-            <a href="#skills">Skills</a>
+            <a href="#publications">Publications</a>
           </li>
           { exp === true &&
             <li>
@@ -27,16 +25,7 @@ function Header() {
             </li>
           }
           <li>
-            <a href="#opensource">Open Source</a>
-          </li>
-          <li>
-            <a href="#projects">Projects</a>
-          </li>
-          <li>
-            <a href="#achievements">Achievements</a>
-          </li>
-          <li>
-            <a href="#blogs">Blogs</a>
+            <a href="#projects">Open Source</a>
           </li>
           <li>
             <a href="#talks">Talks</a>
