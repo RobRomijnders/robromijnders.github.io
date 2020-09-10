@@ -11,10 +11,9 @@
   margin-top: 2rem;
 }
 
-.gretting-main {
-  width: 90%;
-  padding: 20px 10px;
-  margin: 0px auto;
+.greeting-main {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
 }
 
 .greeting-main {
@@ -41,7 +40,8 @@
 }
 
 .greeting-image-div > img {
-  max-width: 100%;
+  max-width: 300px;
+  min-width: 200px;
   height: auto;
 }
 .wave-emoji {
