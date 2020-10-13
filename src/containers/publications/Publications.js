@@ -11,28 +11,33 @@ export default function Publications() {
   }
   return (
     <Fade bottom duration={1000} distance="20px">
-    <div className="main" id="publications">
-      <div className="publications-main-div">
-        <div className="publications-header">
-          <h1 className="heading publications-heading">{publicationsSection.title}</h1>
-          <p className="subTitle publications-subtitle">{publicationsSection.subtitle}</p>
-        </div>
-        <div className="publications-cards-div">
-          {publicationsSection.publicationCards.map(card => {
-            return (
-              <PublicationCard
-                cardInfo={{
-                  title: card.title,
-                  description: card.subtitle,
-                  image: card.image,
-                  footer: card.footerLink
-                }}
-              />
-            );
-          })}
+      <div className="main" id="publications">
+        <div className="publications-main-div">
+          <div className="publications-header">
+            <h1 className="heading publications-heading">
+              {publicationsSection.title}
+            </h1>
+            <p className="subTitle publications-subtitle">
+              {publicationsSection.subtitle}
+            </p>
+          </div>
+          <div className="publications-cards-div">
+            {publicationsSection.publicationCards.map((card, index) => {
+              return (
+                <PublicationCard
+                  key={index}
+                  cardInfo={{
+                    title: card.title,
+                    description: card.subtitle,
+                    image: card.image,
+                    footer: card.footerLink,
+                  }}
+                />
+              );
+            })}
+          </div>
         </div>
       </div>
-    </div>
     </Fade>
   );
 }
