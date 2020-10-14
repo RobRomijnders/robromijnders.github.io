@@ -43,6 +43,7 @@
   max-width: 300px;
   min-width: 200px;
   height: auto;
+  margin: 0 10%;
 }
 .wave-emoji {
   animation-duration: 1.8s;
@@ -50,6 +51,10 @@
   animation-name: wave;
   display: inline-block;
   transform-origin: 70% 70%;
+}
+
+.button-greeting-div {
+  margin: 10px;
 }
 
 @keyframes wave {

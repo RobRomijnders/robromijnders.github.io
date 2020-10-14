@@ -20,6 +20,7 @@ export default function PublicationCard({ cardInfo }) {
         {cardInfo.footer.map((v, i) => {
           return (
             <span
+              key={i}
               class="certificate-tag"
               onClick={() => openUrlInNewTab(v.url)}
             >
