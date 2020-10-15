@@ -27,6 +27,7 @@
 .button-greeting-div {
   display: flex;
   margin-top: 20px;
+  margin: 10px;
 }
 
 .greeting-text {
@@ -51,10 +52,6 @@
   animation-name: wave;
   display: inline-block;
   transform-origin: 70% 70%;
-}
-
-.button-greeting-div {
-  margin: 10px;
 }
 
 @keyframes wave {
@@ -93,6 +90,7 @@
 @media (max-width: 768px) {
   .button-greeting-div {
     justify-content: space-around;
+    font-size: 30px;
   }
   .greeting-text {
     font-size: 30px;

@@ -54,7 +54,7 @@ const workExperiences = {
       ],
     },
     {
-      role: "Graduate student",
+      role: "MSc student",
       company: "Eindhoven University - Mobile Perception systems",
       companylogo: require("./assets/images/tue_whiten.png"),
       date: "Sep 2018 - July 2019",

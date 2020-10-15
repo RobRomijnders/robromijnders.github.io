@@ -1,20 +1,20 @@
 .main-button {
   background-color: #55198b;
+  border-radius: 6px;
   border: solid 1px #55198b;
   color: white;
+  cursor: pointer;
+  display: block;
+  font-size: 16px;
   font-weight: 700;
-  width: max-content;
+  margin: 50px;
+  margin-top: 20px;
   padding: 13px 22px;
-  margin-right: 50px;
-  text-transform: uppercase;
-  border-radius: 6px;
   text-align: center;
   text-decoration: none;
-  display: block;
-  margin-top: 20px;
-  font-size: 16px;
-  cursor: pointer;
+  text-transform: uppercase;
   transition: all 0.3s ease-in-out 0s;
+  width: max-content;
 }
 .main-button:hover {
   background-color: #ffffff;
@@ -35,7 +35,7 @@
   .main-button {
     font-size: 15px;
     padding: 12px 18px;
-    margin-right: 0px;
+    margin: 5px;
   }
 }
 @media (max-width: 320px) {
