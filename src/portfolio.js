@@ -11,7 +11,7 @@ const greeting = {
   subTitle:
     "Machine learning researcher. Interested in representation learning, out-of-distribution generalization and Bayesian learning.",
   resumeLink:
-    "https://drive.google.com/file/d/1oEDtGJV20jCI5olcyMA21P_kS5rl0jFB/view?usp=sharing",
+    "https://drive.google.com/file/d/1azweRx6oLfzhi6R-BtcERW54smbsxJ0d/view?usp=sharing",
   googleScholarLink: "https://scholar.google.com/citations?user=P1kN6KEAAAAJ",
 };
 
@@ -83,6 +83,19 @@ const publicationsSection = {
   subtitle: "Academic publications I have co-authored",
 
   publicationCards: [
+    {
+      title:
+        "Representation learning from videos in-the-wild: An object-centric approach",
+      subtitle:
+        "Rob Romijnders, Aravindh Mahendran, Michael Tschannen, Josip Djolonga, Marvin Ritter, Neil Houlsby, Mario Lucic",
+      image: require("./assets/images/vivi_objects.png"),
+      footerLink: [
+        {
+          name: "arXiv",
+          url: "https://arxiv.org/abs/2010.02808",
+        },
+      ],
+    },
     {
       title:
         "A domain agnostic normalization layer for unsupervised adversarial domain adaptation",
