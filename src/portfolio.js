@@ -11,7 +11,7 @@ const greeting = {
   subTitle:
     "Machine learning researcher. Interested in representation learning, out-of-distribution generalization and Bayesian learning.",
   resumeLink:
-    "https://drive.google.com/file/d/1azweRx6oLfzhi6R-BtcERW54smbsxJ0d/view?usp=sharing",
+    "https://drive.google.com/file/d/1qJBi-xhl60NUdg6Guu7zGanBSmJDd4T2/view?usp=sharing",
   googleScholarLink: "https://scholar.google.com/citations?user=P1kN6KEAAAAJ",
 };
 
