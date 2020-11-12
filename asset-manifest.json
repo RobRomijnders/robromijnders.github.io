@@ -1,0 +1,41 @@
+{
+  "files": {
+    "main.css": "/static/css/main.31c072ff.chunk.css",
+    "main.js": "/static/js/main.f28ef69a.chunk.js",
+    "main.js.map": "/static/js/main.f28ef69a.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.11a16352.js",
+    "runtime-main.js.map": "/static/js/runtime-main.11a16352.js.map",
+    "static/js/2.00e29a00.chunk.js": "/static/js/2.00e29a00.chunk.js",
+    "static/js/2.00e29a00.chunk.js.map": "/static/js/2.00e29a00.chunk.js.map",
+    "static/css/3.c7b31c95.chunk.css": "/static/css/3.c7b31c95.chunk.css",
+    "static/js/3.4226e5e9.chunk.js": "/static/js/3.4226e5e9.chunk.js",
+    "static/js/3.4226e5e9.chunk.js.map": "/static/js/3.4226e5e9.chunk.js.map",
+    "static/css/4.8297c20c.chunk.css": "/static/css/4.8297c20c.chunk.css",
+    "static/js/4.9627d0ee.chunk.js": "/static/js/4.9627d0ee.chunk.js",
+    "static/js/4.9627d0ee.chunk.js.map": "/static/js/4.9627d0ee.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.3ef7e983f855c539b9c87bed635abb90.js": "/precache-manifest.3ef7e983f855c539b9c87bed635abb90.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/3.c7b31c95.chunk.css.map": "/static/css/3.c7b31c95.chunk.css.map",
+    "static/css/4.8297c20c.chunk.css.map": "/static/css/4.8297c20c.chunk.css.map",
+    "static/css/main.31c072ff.chunk.css.map": "/static/css/main.31c072ff.chunk.css.map",
+    "static/media/index.css": "/static/media/Montserrat-Regular.ee653992.ttf",
+    "static/media/frosha_logo.png": "/static/media/frosha_logo.33f64b0e.png",
+    "static/media/google_logo.png": "/static/media/google_logo.ec9e2718.png",
+    "static/media/itsc.png": "/static/media/itsc.480817be.png",
+    "static/media/logo.svg": "/static/media/logo.25bf045c.svg",
+    "static/media/rnn_bb.png": "/static/media/rnn_bb.2d522f00.png",
+    "static/media/rnn_bb_2.png": "/static/media/rnn_bb_2.69d681e1.png",
+    "static/media/rob_6__square__lowres.jpg": "/static/media/rob_6__square__lowres.8d090660.jpg",
+    "static/media/robust.png": "/static/media/robust.92aa0b27.png",
+    "static/media/TalkCard.css": "/static/media/talksCardBack.13780cdd.svg",
+    "static/media/uada.png": "/static/media/uada.6036f31f.png",
+    "static/media/vivi_objects.png": "/static/media/vivi_objects.78827171.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.11a16352.js",
+    "static/js/2.00e29a00.chunk.js",
+    "static/css/main.31c072ff.chunk.css",
+    "static/js/main.f28ef69a.chunk.js"
+  ]
+}
