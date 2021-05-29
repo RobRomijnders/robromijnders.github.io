@@ -1,20 +1,20 @@
 {
   "files": {
     "main.css": "/static/css/main.31c072ff.chunk.css",
-    "main.js": "/static/js/main.f28ef69a.chunk.js",
-    "main.js.map": "/static/js/main.f28ef69a.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.11a16352.js",
-    "runtime-main.js.map": "/static/js/runtime-main.11a16352.js.map",
-    "static/js/2.00e29a00.chunk.js": "/static/js/2.00e29a00.chunk.js",
-    "static/js/2.00e29a00.chunk.js.map": "/static/js/2.00e29a00.chunk.js.map",
+    "main.js": "/static/js/main.56bd3c6b.chunk.js",
+    "main.js.map": "/static/js/main.56bd3c6b.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.9ce3edfb.js",
+    "runtime-main.js.map": "/static/js/runtime-main.9ce3edfb.js.map",
+    "static/js/2.1f6ddf8d.chunk.js": "/static/js/2.1f6ddf8d.chunk.js",
+    "static/js/2.1f6ddf8d.chunk.js.map": "/static/js/2.1f6ddf8d.chunk.js.map",
     "static/css/3.c7b31c95.chunk.css": "/static/css/3.c7b31c95.chunk.css",
-    "static/js/3.4226e5e9.chunk.js": "/static/js/3.4226e5e9.chunk.js",
-    "static/js/3.4226e5e9.chunk.js.map": "/static/js/3.4226e5e9.chunk.js.map",
+    "static/js/3.f8f33a82.chunk.js": "/static/js/3.f8f33a82.chunk.js",
+    "static/js/3.f8f33a82.chunk.js.map": "/static/js/3.f8f33a82.chunk.js.map",
     "static/css/4.8297c20c.chunk.css": "/static/css/4.8297c20c.chunk.css",
-    "static/js/4.9627d0ee.chunk.js": "/static/js/4.9627d0ee.chunk.js",
-    "static/js/4.9627d0ee.chunk.js.map": "/static/js/4.9627d0ee.chunk.js.map",
+    "static/js/4.90ed9334.chunk.js": "/static/js/4.90ed9334.chunk.js",
+    "static/js/4.90ed9334.chunk.js.map": "/static/js/4.90ed9334.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.3ef7e983f855c539b9c87bed635abb90.js": "/precache-manifest.3ef7e983f855c539b9c87bed635abb90.js",
+    "precache-manifest.cad4cc74f9b12d7476cd2a5a6297f8e0.js": "/precache-manifest.cad4cc74f9b12d7476cd2a5a6297f8e0.js",
     "service-worker.js": "/service-worker.js",
     "static/css/3.c7b31c95.chunk.css.map": "/static/css/3.c7b31c95.chunk.css.map",
     "static/css/4.8297c20c.chunk.css.map": "/static/css/4.8297c20c.chunk.css.map",
@@ -28,14 +28,15 @@
     "static/media/rnn_bb_2.png": "/static/media/rnn_bb_2.69d681e1.png",
     "static/media/rob_6__square__lowres.jpg": "/static/media/rob_6__square__lowres.8d090660.jpg",
     "static/media/robust.png": "/static/media/robust.92aa0b27.png",
+    "static/media/siscore.png": "/static/media/siscore.8cc40110.png",
     "static/media/TalkCard.css": "/static/media/talksCardBack.13780cdd.svg",
     "static/media/uada.png": "/static/media/uada.6036f31f.png",
     "static/media/vivi_objects.png": "/static/media/vivi_objects.78827171.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.11a16352.js",
-    "static/js/2.00e29a00.chunk.js",
+    "static/js/runtime-main.9ce3edfb.js",
+    "static/js/2.1f6ddf8d.chunk.js",
     "static/css/main.31c072ff.chunk.css",
-    "static/js/main.f28ef69a.chunk.js"
+    "static/js/main.56bd3c6b.chunk.js"
   ]
 }
